@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFEB3B; /* Bright yellow */
+    padding: 30px;
+}
+
+form {
+    background-color: #4CAF50; /* Bright green */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #E91E63; /* Pink */
+}
+
+input[type="text"], input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #FF5722; /* Deep orange */
+    border-radius: 4px;
+    background-color: #FFF59D; /* Light yellow */
+}
+
+input[type="text"]:disabled {
+    background-color: #B2FF59; /* Light green */
+    color: #673AB7; /* Deep purple */
+}
+
+input[type="range"] {
+    cursor: pointer;
+}
